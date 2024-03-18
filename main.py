@@ -25,7 +25,7 @@ import base64
 # Creamos nuestro objeto de FastAPI
 app = FastAPI()
 
-URI = "mongodb+srv://myAtlasDBUser:mongoose@myatlasclusteredu.rr2gzwv.mongodb.net/?retryWrites=true&w=majority&appName=myAtlasClusterEDU"
+URI = ""
 
 #  Conectamos con nuestro Cluster de MongoDB
 CLIENTE = MongoClient(URI, server_api=ServerApi('1'))
